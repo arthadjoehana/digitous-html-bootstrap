@@ -1,0 +1,12 @@
+form h2 {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+form button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}

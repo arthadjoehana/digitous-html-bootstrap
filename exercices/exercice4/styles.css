@@ -3,27 +3,29 @@
     padding: 0;
 }
 
-nav {
-    background-color: grey;
 
+.navbar {
+    background-color: rgb(43, 43, 43);
 }
 
-nav ul {
+.nav-items ul {
+    margin: 10px;
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-
 }
 
-.nav-link {
-    color: white;
+.nav-links {
+    margin: 10px;
+    color: grey;
     text-decoration: none;
 }
 
-a {
+.nav-links:hover {
     color: white;
-    text-decoration: none;
+}
+
+.nav-links :active {
+    color: white;
 }
 
 .container {
